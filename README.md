@@ -21,8 +21,10 @@ Running the Tests:
 
 ## Usage
 
-```use krixikraxi\sortingAlgorithms\Sorter;
+```
+use krixikraxi\sortingAlgorithms\Sorter;
 require_once __DIR__.'/../vendor/autoload.php';
 
 $sorter = new Sorter("InsertionSort");
-$sortedArray = $sorter->sort(array(4,1,7));```
+$sortedArray = $sorter->sort(array(4,1,7));
+```
