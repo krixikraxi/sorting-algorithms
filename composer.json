@@ -1,0 +1,19 @@
+{
+    "name": "krixikraxi/sortingalgorithms",
+    "description": "Sorting Algorithms for Arrays",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Suchan",
+            "email": "e1028089@student.tuwien.ac.at"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {"krixikraxi\\sortingAlgorithms\\": "src"}
+    }
+}
