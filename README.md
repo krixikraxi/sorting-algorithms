@@ -17,13 +17,22 @@ Running the Tests:
 
 ## Install via Composer:
 
-`composer require "krixikraxi/sortingalgorithms"`
+Create the `composer.json` file with this content:
+```
+{
+  "require": {
+    "krixikraxi/sortingalgorithms": "dev-master"
+  },
+  "minimum-stability": "dev"
+}
+```
+Run `composer install`
 
 ## Usage
 
 ```
 use krixikraxi\sortingAlgorithms\Sorter;
-require_once __DIR__.'/../vendor/autoload.php';
+require_once __DIR__.'/vendor/autoload.php';
 
 $sorter = new Sorter("InsertionSort");
 $sortedArray = $sorter->sort(array(4,1,7));
